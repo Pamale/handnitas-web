@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Handnitas · Manitas de confianza en Gibraltar</title>
+<meta name="description" content="Publica lo que necesitas para tu casa y recibe presupuestos de profesionales de Gibraltar y el Campo de Gibraltar. Compara precio, plazo y valoraciones.">
+<meta property="og:title" content="Handnitas · Manitas de confianza en Gibraltar">
+<meta property="og:description" content="Publica tu trabajo, recibe presupuestos, elige con confianza.">
+<meta property="og:type" content="website">
+<link rel="icon" href="./assets/icono.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          lima:     '#A3D11A',
+          limaSoft: '#EDF8D6',
+          verde:    '#547415',
+          pizarra:  '#687A8E',
+          texto:    '#1A202C',
+          fondo:    '#F9FAFB'
+        },
+        fontFamily: { sans: ['Quicksand','sans-serif'] },
+        borderRadius: { '4xl':'2.5rem' },
+        boxShadow: { soft:'0 10px 40px -10px rgba(0,0,0,.10)' }
+      }
+    }
+  }
+</script>
+<style>
+  html { scroll-behavior:smooth; }
+  .pattern-wrapper { position:relative; background-color:#F9FAFB; overflow:hidden; }
+  .pattern-wrapper::before{
+    content:""; position:absolute; inset:0;
+    background-image:url('./assets/manitas-transparente.png');
+    background-size:350px; background-repeat:repeat;
+    opacity:.08; z-index:0; pointer-events:none;
+  }
+  .rel { position:relative; z-index:10; }
+</style>
+</head>
+<body class="text-texto font-sans antialiased selection:bg-lima selection:text-texto">
+
+<div class="pattern-wrapper pb-24">
+
+  <nav class="rel sticky top-0 z-40 mx-auto mb-12 flex max-w-7xl items-center justify-between rounded-b-3xl bg-white/90 px-6 py-5 shadow-sm backdrop-blur-md">
+    <a href="#" class="select-none text-3xl font-bold tracking-tight md:text-4xl">
+      <span class="text-lima">H</span><span class="text-pizarra">andnitas</span>
+    </a>
+    <div class="hidden gap-8 font-bold text-pizarra md:flex">
+      <a href="#como-funciona" class="transition-colors hover:text-verde">Cómo funciona</a>
+      <a href="#servicios" class="transition-colors hover:text-verde">Servicios</a>
+      <a href="#profesionales" class="transition-colors hover:text-verde">Para profesionales</a>
+    </div>
+    <a href="#descarga" class="flex items-center gap-2 rounded-full bg-lima px-6 py-2.5 font-bold text-texto shadow-lg shadow-lima/40 transition-transform hover:scale-105">
+      Empezar
+      <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+    </a>
+  </nav>
+
+  <section class="rel mx-auto flex max-w-7xl flex-col items-center justify-between gap-16 px-6 lg:flex-row">
+    <div class="flex flex-col gap-7 text-center lg:w-1/2 lg:text-left">
+      <span class="mx-auto inline-flex w-fit items-center gap-2 rounded-full bg-limaSoft px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-verde lg:mx-0">
+        Gibraltar y Campo de Gibraltar
+      </span>
+      <h1 class="text-5xl font-bold leading-tight tracking-tight lg:text-6xl">
+        ¿Necesitas un <br><span class="text-pizarra">manitas</span> en tu hogar?
+      </h1>
+      <p class="mx-auto max-w-lg text-xl font-semibold text-gray-600 lg:mx-0">
+        Publica lo que necesitas y recibe presupuestos de profesionales de tu zona.
+        Compara precio, fecha y valoraciones, y elige sin compromiso.
+      </p>
+
+      <div class="mt-2 flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
+        <span class="flex items-center justify-center gap-3 rounded-2xl border-2 border-gray-100 bg-white px-6 py-3 shadow-xl">
+          <svg class="h-8 w-8 fill-current text-pizarra" viewBox="0 0 24 24"><path d="M16.365 14.502c-.015-3.327 2.722-4.922 2.845-4.996-1.543-2.257-3.95-2.564-4.81-2.613-2.05-.208-4.004 1.206-5.048 1.206-1.045 0-2.66-1.185-4.352-1.15-2.193.036-4.218 1.274-5.347 3.23-2.298 3.98-1.5 10.667.75 13.896 1.096 1.576 2.404 3.334 4.095 3.27 1.636-.062 2.262-1.054 4.225-1.054 1.96 0 2.532 1.054 4.256 1.018 1.776-.035 2.906-1.603 3.99-3.178 1.258-1.838 1.78-3.62 1.802-3.714-.04-.017-3.39-1.303-3.406-5.915zm-2.883-7.55c.846-1.023 1.417-2.443 1.26-3.864-1.218.05-2.705.813-3.57 1.836-.77.88-1.448 2.333-1.27 3.725 1.36.106 2.736-.667 3.58-1.7z"/></svg>
+          <span class="text-left">
+            <span class="block text-xs font-bold text-gray-500">Próximamente en</span>
+            <span class="block text-lg font-bold leading-none">App Store</span>
+          </span>
+        </span>
+        <span class="flex items-center justify-center gap-3 rounded-2xl border-2 border-gray-100 bg-white px-6 py-3 shadow-xl">
+          <svg class="h-8 w-8 fill-current text-pizarra" viewBox="0 0 24 24"><path d="M3.609 1.814L13.792 12 3.61 22.186a1.984 1.984 0 0 1-.54-.925c-.068-.276-.104-.564-.105-.853V3.592c.001-.29.037-.577.105-.853.088-.358.273-.683.539-.925z"/></svg>
+          <span class="text-left">
+            <span class="block text-xs font-bold text-gray-500">Próximamente en</span>
+            <span class="block text-lg font-bold leading-none">Google Play</span>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    <div class="relative flex justify-center lg:w-1/2">
+      <div class="absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-lima/30 blur-3xl"></div>
+      <div class="relative z-10 w-[300px] rounded-[3rem] border-[10px] border-white bg-white p-5 shadow-2xl ring-1 ring-gray-200">
+        <div class="rounded-2xl bg-limaSoft p-4">
+          <p class="text-[10px] font-bold uppercase tracking-widest text-verde">Nueva petición</p>
+          <p class="mt-1 text-lg font-bold">Pintar 3 habitaciones</p>
+          <p class="text-sm text-gray-500">Ocean Village · Esta semana</p>
+        </div>
+        <div class="mt-4 space-y-3">
+          <div class="flex items-center gap-3 rounded-2xl border border-gray-100 p-3">
+            <span class="grid h-10 w-10 place-items-center rounded-full bg-lima font-bold text-texto">JM</span>
+            <span class="min-w-0"><span class="block truncate text-sm font-bold">J. Morales</span><span class="block text-xs text-gray-500">★ 4,9 · 5 días</span></span>
+            <span class="ml-auto font-bold text-verde">£820</span>
+          </div>
+          <div class="flex items-center gap-3 rounded-2xl border border-gray-100 p-3">
+            <span class="grid h-10 w-10 place-items-center rounded-full bg-pizarra font-bold text-white">AR</span>
+            <span class="min-w-0"><span class="block truncate text-sm font-bold">A. Ruiz</span><span class="block text-xs text-gray-500">★ 4,7 · 4 días</span></span>
+            <span class="ml-auto font-bold text-verde">£760</span>
+          </div>
+          <div class="flex items-center gap-3 rounded-2xl border-2 border-lima bg-limaSoft/60 p-3">
+            <span class="grid h-10 w-10 place-items-center rounded-full bg-verde font-bold text-white">PC</span>
+            <span class="min-w-0"><span class="block truncate text-sm font-bold">P. Castillo</span><span class="block text-xs text-gray-500">★ 5,0 · 6 días</span></span>
+            <span class="ml-auto font-bold text-verde">£690</span>
+          </div>
+        </div>
+        <p class="mt-4 text-center text-[11px] text-gray-400">Ejemplo ilustrativo</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="bg-white py-20">
+  <div class="mx-auto max-w-7xl px-6">
+    <div class="max-w-2xl">
+      <span class="text-sm font-bold uppercase tracking-widest text-lima">Por qué Handnitas</span>
+      <h2 class="mt-3 text-4xl font-bold leading-tight md:text-5xl">Deja de pedir presupuestos uno a uno.</h2>
+      <p class="mt-4 text-lg text-gray-600">
+        Encontrar un buen manitas suele ser cuestión de suerte y de grupos de mensajería.
+        Handnitas lo ordena: publicas una vez y son los profesionales quienes vienen a ti.
+      </p>
+    </div>
+    <div class="mt-12 grid gap-6 md:grid-cols-3">
+      <article class="rounded-3xl border border-gray-100 bg-fondo p-7 shadow-soft">
+        <h3 class="text-xl font-bold">Compara de verdad</h3>
+        <p class="mt-2 text-gray-600">Todos los presupuestos en la misma moneda, con mano de obra y materiales separados. Sin llamadas ni idas y venidas.</p>
+      </article>
+      <article class="rounded-3xl border border-gray-100 bg-fondo p-7 shadow-soft">
+        <h3 class="text-xl font-bold">Profesionales en regla</h3>
+        <p class="mt-2 text-gray-600">Todos declaran estar dados de alta y cumplir la normativa. Quien lo desea aporta su documentación y obtiene el distintivo Verificado.</p>
+      </article>
+      <article class="rounded-3xl border border-gray-100 bg-fondo p-7 shadow-soft">
+        <h3 class="text-xl font-bold">Valoraciones honestas</h3>
+        <p class="mt-2 text-gray-600">Puntualidad, formalidad, limpieza y acabados. Cliente y profesional se valoran, y nada se publica hasta que ambos han escrito.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="como-funciona" class="bg-limaSoft/60 py-20">
+  <div class="mx-auto max-w-7xl px-6">
+    <div class="max-w-2xl">
+      <span class="text-sm font-bold uppercase tracking-widest text-verde">Cómo funciona</span>
+      <h2 class="mt-3 text-4xl font-bold leading-tight md:text-5xl">Tres pasos y a trabajar.</h2>
+    </div>
+    <div class="mt-12 grid gap-6 md:grid-cols-3">
+      <article class="rounded-3xl bg-white p-7 shadow-soft">
+        <span class="text-5xl font-bold text-lima">1</span>
+        <h3 class="mt-3 text-xl font-bold">Publica lo que necesitas</h3>
+        <p class="mt-2 text-gray-600">Describe el trabajo, añade fotos y di dónde y cuándo. Tarda un minuto.</p>
+      </article>
+      <article class="rounded-3xl bg-white p-7 shadow-soft">
+        <span class="text-5xl font-bold text-lima">2</span>
+        <h3 class="mt-3 text-xl font-bold">Recibe presupuestos</h3>
+        <p class="mt-2 text-gray-600">Los profesionales de tu zona te envían su precio, su fecha de inicio y su plazo.</p>
+      </article>
+      <article class="rounded-3xl bg-white p-7 shadow-soft">
+        <span class="text-5xl font-bold text-lima">3</span>
+        <h3 class="mt-3 text-xl font-bold">Elige y habla</h3>
+        <p class="mt-2 text-gray-600">Aceptas el que prefieras y se abre un chat con esa persona. El resto se rechaza solo.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="servicios" class="mx-auto max-w-7xl px-6 py-20">
+  <div class="max-w-2xl">
+    <span class="text-sm font-bold uppercase tracking-widest text-lima">Servicios</span>
+    <h2 class="mt-3 text-4xl font-bold leading-tight md:text-5xl">Para casi todo lo de casa.</h2>
+  </div>
+  <div class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Pintura</div>
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Fontanería</div>
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Electricidad y clima</div>
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Limpieza</div>
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Reparaciones y montaje</div>
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Obra y reformas</div>
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Jardín y mudanzas</div>
+    <div class="rounded-2xl border border-gray-100 bg-white p-5 text-center font-bold shadow-soft">Otros trabajos</div>
+  </div>
+</section>
+
+<section id="profesionales" class="bg-verde py-20 text-white">
+  <div class="mx-auto grid max-w-7xl items-center gap-12 px-6 md:grid-cols-2">
+    <div>
+      <span class="text-sm font-bold uppercase tracking-widest text-lima">Para profesionales</span>
+      <h2 class="mt-3 text-4xl font-bold leading-tight md:text-5xl">El trabajo llega solo.</h2>
+      <p class="mt-5 text-lg text-white/80">
+        Sin cuotas, sin comisiones y sin pagar por presupuestar. Ves las peticiones de tu
+        zona y tus categorías, y decides a cuáles quieres optar.
+      </p>
+      <ul class="mt-8 space-y-4 text-white/90">
+        <li><strong class="text-lima">Gratis</strong> durante el lanzamiento. Ni cuota ni porcentaje.</li>
+        <li>Tú pones el precio, la fecha y el plazo. Sin regateos.</li>
+        <li>Tus valoraciones te acompañan y te diferencian.</li>
+        <li>Trabaja en Gibraltar, en el Campo de Gibraltar o en ambos.</li>
+      </ul>
+      <a href="#descarga" class="mt-9 inline-flex rounded-full bg-lima px-7 py-3.5 font-bold text-texto transition hover:brightness-105">Darse de alta</a>
+    </div>
+    <div class="rounded-4xl bg-white/10 p-8 backdrop-blur">
+      <p class="text-sm font-bold uppercase tracking-widest text-lima">Requisitos</p>
+      <p class="mt-4 text-white/85">
+        Para ofertar en Handnitas debes estar dado de alta como profesional o empresa y
+        cumplir la normativa que te sea aplicable en el lugar donde prestes el servicio.
+      </p>
+      <p class="mt-4 text-white/85">
+        Si además aportas tu documentación de alta y tu seguro de responsabilidad civil,
+        obtienes el distintivo <strong class="text-white">Verificado</strong>, visible para
+        todos los clientes.
+      </p>
+      <p class="mt-6 text-sm text-white/60">
+        Handnitas comprueba que los documentos existen y están en vigor. No supervisa ni
+        garantiza la ejecución de los trabajos.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="descarga" class="mx-auto max-w-7xl px-6 py-20">
+  <div class="pattern-wrapper rounded-4xl bg-lima p-10 text-texto shadow-soft md:p-16">
+    <div class="rel grid items-center gap-10 md:grid-cols-2">
+      <div>
+        <h2 class="text-4xl font-bold leading-tight md:text-5xl">Empieza hoy con Handnitas.</h2>
+        <p class="mt-4 text-lg text-texto/80">
+          Publicar es gratis y no te compromete a nada. Recibe presupuestos y decide con calma.
+        </p>
+      </div>
+      <div class="rounded-3xl bg-white/70 p-7 backdrop-blur">
+        <p class="font-bold">¿Quieres que te avisemos?</p>
+        <p class="mt-2 text-sm text-texto/80">Te escribimos en cuanto esté disponible.</p>
+        <a href="mailto:hola@handnitas.com" class="mt-5 inline-flex items-center gap-2 rounded-full bg-verde px-6 py-3 font-bold text-white transition hover:brightness-110">
+          hola@handnitas.com
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-gray-100 bg-white">
+  <div class="mx-auto max-w-7xl px-6 py-14">
+    <div class="grid gap-10 md:grid-cols-4">
+      <div class="md:col-span-2">
+        <p class="select-none text-2xl font-bold"><span class="text-lima">H</span><span class="text-pizarra">andnitas</span></p>
+        <p class="mt-4 max-w-sm text-sm text-gray-500">
+          Handnitas es una plataforma de intermediación: pone en contacto a personas que
+          necesitan un servicio con profesionales que lo ofrecen. No presta los servicios
+          ni participa en su ejecución.
+        </p>
+      </div>
+      <div>
+        <p class="text-sm font-bold uppercase tracking-widest text-verde">Handnitas</p>
+        <ul class="mt-4 space-y-2 text-sm text-gray-500">
+          <li><a class="hover:text-verde" href="#como-funciona">Cómo funciona</a></li>
+          <li><a class="hover:text-verde" href="#servicios">Servicios</a></li>
+          <li><a class="hover:text-verde" href="#profesionales">Para profesionales</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-sm font-bold uppercase tracking-widest text-verde">Legal</p>
+        <ul class="mt-4 space-y-2 text-sm text-gray-500">
+          <li><a class="hover:text-verde" href="./terminos.html">Términos y condiciones</a></li>
+          <li><a class="hover:text-verde" href="./privacidad.html">Política de privacidad</a></li>
+          <li><a class="hover:text-verde" href="mailto:soporte@handnitas.com">Soporte</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="mt-12 border-t border-gray-100 pt-6 text-sm text-gray-400">
+      © <span id="year">2026</span> Handnitas. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
+
+<div id="cookie-banner" class="fixed inset-x-4 bottom-4 z-50 mx-auto hidden max-w-3xl items-center gap-6 rounded-3xl bg-white p-6 shadow-soft md:flex">
+  <p class="text-sm text-gray-600">
+    Usamos únicamente cookies necesarias para que la web funcione. No usamos cookies de
+    publicidad ni de seguimiento.
+  </p>
+  <button id="cookie-ok" class="mt-4 w-full shrink-0 rounded-full bg-lima px-6 py-2.5 font-bold text-texto md:mt-0 md:w-auto">Entendido</button>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  (function(){
+    var b=document.getElementById('cookie-banner');
+    if(!localStorage.getItem('hn-cookies')){ b.classList.remove('hidden'); b.classList.add('flex'); }
+    document.getElementById('cookie-ok').onclick=function(){
+      localStorage.setItem('hn-cookies','1'); b.classList.add('hidden'); b.classList.remove('flex');
+    };
+  })();
+</script>
+</body>
+</html>
